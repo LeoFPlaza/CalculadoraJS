@@ -13,7 +13,7 @@ while(userName !== "Usuario"){
 
 
 
-function operation (){
+function operation (operador)){
 let numberA = parseInt(lastNumber);
 let numberB = 0
   if( isNaN(numberA)  || numberA === undefined){
