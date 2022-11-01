@@ -1,9 +1,17 @@
 let firstNumber = 0;
 let lastNumber = 0;
 let result = document.getElementById("result");
+let userName = prompt("Nombre de usuario:"); 
+
+
 result.innerHTML = lastNumber;
 
-console.log("==========================")
+ console.log("==========================")
+while(userName !== "Usuario"){
+  userName = prompt("por favor ingresar un nombre de usuario valido")
+}
+
+
 
 function operation (){
 let numberA = parseInt(lastNumber);
