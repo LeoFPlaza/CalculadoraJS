@@ -2,15 +2,15 @@ let firstNumber = 0;
 let lastNumber = 0;
 let operador;
 let result = document.getElementById("result");
-let userName = "Usuario";//prompt("Nombre de usuario:"); 
+let userName = prompt("Nombre de usuario:"); 
 
 
 result.innerHTML = lastNumber;
 
  console.log("==========================")
-// while(userName !== "Usuario"){
-//   userName = prompt("por favor ingresar un nombre de usuario valido")
-// }
+while(userName !== "Usuario"){
+  userName = prompt("por favor ingresar un nombre de usuario valido")
+}
 
 
 
